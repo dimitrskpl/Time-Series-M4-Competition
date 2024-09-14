@@ -1,4 +1,6 @@
 import pandas as pd
+from statsmodels.tsa.stattools import acf
+from statsmodels.tsa.seasonal import seasonal_decompose
 
 
 # def naive_2_forecast(series, m):
